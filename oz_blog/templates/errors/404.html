@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="content-section">
+        <h1>ДОБРО ПОЖАЛОВАТЬ НА СТРАНИЦУ 404!</h1>
+        <p>к сожалению, такого документа не существует<br>
+            Нажмите <a href="{{ url_for('main.home') }}">сюда</a> или <a href="{{ url_for('main.home') }}">сюда</a>,
+            чтоб попасть на заглавную cтраницу. Или <a href="{{ url_for('main.home') }}">сюда</a>.<p>
+    </div>
+{% endblock content %}
